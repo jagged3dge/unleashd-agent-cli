@@ -1,2 +1,11 @@
 node_modules/
 dist/
+
+# TypeScript build artifacts (compiled in-place)
+src/**/*.js
+src/**/*.d.ts
+src/**/*.js.map
+src/**/*.d.ts.map
+
+# Keep test JavaScript files
+!src/**/__tests__/**/*.js
